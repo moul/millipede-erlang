@@ -8,7 +8,7 @@
 
 print_padding_dec(0) ->
   ok;
-print_padding_dec(Size) ->
+print_padding_dec(Size!) ->
   print_padding_dec(Size - 1),
   io:put_chars(" ").
 
